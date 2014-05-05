@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd84ff56-e812-4607-9d80-9b7e04fc0901" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/templates/base.html" afterPath="$PROJECT_DIR$/lists/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/templates/list.html" afterPath="$PROJECT_DIR$/lists/templates/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functional_tests/tests.py" afterPath="$PROJECT_DIR$/functional_tests/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superlists/settings.py" afterPath="$PROJECT_DIR$/superlists/settings.py" />
     </list>
     <ignored path="superlists.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,10 +48,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/static/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="1" selection-start="37" selection-end="37" vertical-scroll-proportion="0.050933786" vertical-offset="0" max-vertical-offset="589">
+            <state line="2" column="1" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/superlists/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="5" selection-start="831" selection-end="831" vertical-scroll-proportion="0.5925297" vertical-offset="131" max-vertical-offset="1350">
               <folding />
             </state>
           </provider>
@@ -96,6 +103,7 @@
         <option value="$PROJECT_DIR$/lists/templates/list.html" />
         <option value="$PROJECT_DIR$/lists/templates/base.html" />
         <option value="$PROJECT_DIR$/lists/static/base.css" />
+        <option value="$PROJECT_DIR$/superlists/settings.py" />
       </list>
     </option>
   </component>
@@ -548,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="8" selection-start="1873" selection-end="1879" vertical-scroll-proportion="0.72924185" vertical-offset="781" max-vertical-offset="1335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functional_tests/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="41" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
@@ -580,7 +581,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lists/static/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="37" selection-end="37" vertical-scroll-proportion="0.050933786" vertical-offset="0" max-vertical-offset="589">
+        <state line="2" column="1" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="5" selection-start="831" selection-end="831" vertical-scroll-proportion="0.5925297" vertical-offset="131" max-vertical-offset="1350">
           <folding />
         </state>
       </provider>

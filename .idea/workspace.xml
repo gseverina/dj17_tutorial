@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd84ff56-e812-4607-9d80-9b7e04fc0901" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superlists/settings.py" afterPath="$PROJECT_DIR$/superlists/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functional_tests/tests.py" afterPath="$PROJECT_DIR$/functional_tests/tests.py" />
     </list>
     <ignored path="superlists.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,12 +28,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tests.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functional_tests/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="41" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
+            <state line="111" column="30" selection-start="4303" selection-end="4303" vertical-scroll-proportion="0.49066213" vertical-offset="1376" max-vertical-offset="2055">
               <folding>
-                <element signature="e#0#67#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,15 +52,6 @@
         <entry file="file://$PROJECT_DIR$/lists/static/base.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="1" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/superlists/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="5" selection-start="831" selection-end="831" vertical-scroll-proportion="0.5925297" vertical-offset="131" max-vertical-offset="1350">
               <folding />
             </state>
           </provider>
@@ -99,11 +90,11 @@
       <list>
         <option value="$PROJECT_DIR$/lists/templates/home.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/functional_tests/tests.py" />
         <option value="$PROJECT_DIR$/lists/templates/list.html" />
         <option value="$PROJECT_DIR$/lists/templates/base.html" />
         <option value="$PROJECT_DIR$/lists/static/base.css" />
         <option value="$PROJECT_DIR$/superlists/settings.py" />
+        <option value="$PROJECT_DIR$/functional_tests/tests.py" />
       </list>
     </option>
   </component>
@@ -537,7 +528,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="0" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="1650">
           <folding>
-            <element signature="e#0#67#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -556,15 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functional_tests/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lists/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="42" selection-start="209" selection-end="209" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="270">
@@ -579,6 +561,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="5" selection-start="831" selection-end="831" vertical-scroll-proportion="0.5925297" vertical-offset="131" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lists/static/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="1" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
@@ -586,10 +575,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/settings.py">
+    <entry file="file://$PROJECT_DIR$/functional_tests/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="831" selection-end="831" vertical-scroll-proportion="0.5925297" vertical-offset="131" max-vertical-offset="1350">
-          <folding />
+        <state line="111" column="30" selection-start="4303" selection-end="4303" vertical-scroll-proportion="0.49066213" vertical-offset="1376" max-vertical-offset="2055">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

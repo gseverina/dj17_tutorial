@@ -25,7 +25,8 @@ class NewVisitorTest(StaticLiveServerCase):
         chromedriver = "/home/gseverina/Downloads/chromedriver"
         os.environ["webdriver.chrome.driver"] = chromedriver
         #driver = webdriver.Chrome(chromedriver)
-        self.browser = webdriver.Chrome(chromedriver)
+        #self.browser = webdriver.Chrome(chromedriver)
+        self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(3)
 
     def tearDown(self):

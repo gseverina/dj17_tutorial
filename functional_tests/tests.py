@@ -22,12 +22,16 @@ class NewVisitorTest(StaticLiveServerCase):
             StaticLiveServerCase.tearDownClass()
 
     def setUp(self):
-        chromedriver = "/home/gseverina/Downloads/chromedriver"
-        os.environ["webdriver.chrome.driver"] = chromedriver
+        #chromedriver = "/home/gseverina/Downloads/chromedriver"
+        #os.environ["webdriver.chrome.driver"] = chromedriver
         #driver = webdriver.Chrome(chromedriver)
         #self.browser = webdriver.Chrome(chromedriver)
         self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(3)
+
+        self.browser.get(self.server_url)
+        if 'This VM is inactive' in self.browser.title:
+            self.browser.get(self.server_url)
 
     def tearDown(self):
         self.browser.quit()

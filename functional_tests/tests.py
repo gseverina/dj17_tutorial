@@ -1,3 +1,4 @@
+import os
 import sys
 from django.contrib.staticfiles.testing import StaticLiveServerCase
 from selenium import webdriver
@@ -21,7 +22,10 @@ class NewVisitorTest(StaticLiveServerCase):
             StaticLiveServerCase.tearDownClass()
 
     def setUp(self):
-        self.browser = webdriver.Firefox()
+        chromedriver = "/home/gseverina/Downloads/chromedriver"
+        os.environ["webdriver.chrome.driver"] = chromedriver
+        #driver = webdriver.Chrome(chromedriver)
+        self.browser = webdriver.Chrome(chromedriver)
         self.browser.implicitly_wait(3)
 
     def tearDown(self):

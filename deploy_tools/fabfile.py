@@ -3,7 +3,7 @@ from fabric.api import env, local, run
 import random
 
 REPO_URL = 'https://github.com/gseverina/dj17_tutorial.git'
-
+env.gateway = 'ssh.koding.com'
 
 def _create_directory_structure_if_necessary(site_folder):
     for subfolder in ('database', 'static', 'virtualenv', 'source'):
@@ -14,7 +14,7 @@ def _get_latest_source(source_folder):
     if exists(source_folder + '/.git'):
         run('cd %s && git fetch' % (source_folder,))
     else:
-        run('git clone %s %s' % (REPO_URL,source_folder))
+        run('git clone %s %s' % (REPO_URL, source_folder))
     current_commit = local("git log -n i --format=%H", capture=True)
     run('cd %s && git reset --hard %s' % (source_folder, current_commit))
 
@@ -57,6 +57,7 @@ def _update_database(source_folder):
 
 def deploy():
     site_folder = '/home/%s/sites/%s' % (env.user, env.host)
+    #print site_folder
     source_folder = site_folder + '/source'
     _create_directory_structure_if_necessary(site_folder)
     _get_latest_source(source_folder)

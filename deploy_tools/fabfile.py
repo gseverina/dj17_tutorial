@@ -38,7 +38,7 @@ def _update_virtualenv(source_folder):
     virtualenv_folder = source_folder + '/../virtualenv'
     if not exists(virtualenv_folder + '/bin/pip'):
         run('virtualenv %s' % (virtualenv_folder,))
-    run('%s/bin/pip install install '
+    run('%s/bin/pip install '
         'https://www.djangoproject.com/download/1.7b3/tarball/' % (
         virtualenv_folder
     ))
